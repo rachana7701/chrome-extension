@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  #container1,#container2{
+    display: flex;
+    align-items: flex-start;
+  }
+
+  #announcement{
+    background-color:rgb(13, 13, 13);
+    margin: 3px;
+    color: white;
+  }
+
+  #google-slides-widget  {
+    padding: 5px; 
+    border: 1px solid #ccc;
+  }
+
+  #music-widget{
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+  }
+
+  #pomodoro-timer-widget{
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-left: 10px;
+    height: 450px;
+  }
+  
+  #timer {
+    font-size: 7em;
+    margin: 10px 0;
+    display: flex;
+  }
+  
+  .pomodoro-container {
+    text-align: center;
+    background-color:darkslateblue;
+    padding: 20px;
+    border-radius: 10px;
+    background-image:url('./pomodoro_background.jpg') ;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .timer-type-buttons button {
+    background: none;
+    border: 2px solid white;
+    color: whitesmoke;
+    font-size: 1.2em;
+    margin: 0 5px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .timer-type-buttons button.active {
+    background-color: white;
+    color: black;
+  }
+
+  .timer-display {
+    font-size: 5em;
+    margin: 20px 0;
+    color:whitesmoke;
+  }
+  
+  .control-buttons button {
+    background-color: white;
+    border: none;
+    color: black;
+    font-size: 1.5em;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .control-buttons button:active {
+    background-color: lightgrey;
+  }
+
+  .emoji-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    border: 1px solid #ccc;
+    margin-right: 20px;
+    margin-left: 50px;
+  }
+
+  .emoji-bar .emoji {
+    font-size: 2em;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .emoji-bar .emoji:hover {
+    background-color: lightgrey;
+    border-radius: 50%;
+  }
+
+  .animated-emoji {
+    position: absolute;
+    font-size: 24px;
+    animation: floatAndScale 2s ease-in-out;
+    pointer-events: none;
+    transform-origin: bottom right;
+  }
+
+  @keyframes floatAndScale {
+    0% {
+      transform: translateY(0) scale(1);
+    }
+    100% {
+      transform: translateY(-300px) scale(1.3); /* Move 100px upwards and scale up to 1.5 times */
+    }
+  }
+
+
+  #spreadsheet-widget{
+    padding: 5px; 
+    border: 1px solid #ccc;
+    margin: 10px;
+    
+  }
+
+  #form-widget{
+    padding: 5px; 
+    border: 1px solid #ccc;
+    margin: 10px;
+  
+  }
