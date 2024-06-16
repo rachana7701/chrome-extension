@@ -3,11 +3,12 @@ Problem:The notice board in the office, to display all the information about the
 Proposed Solution:Build a chrome extension to set the Homepage of the browser as our notice board.
 
 Widgets Added:
+
 -> Google Slide
 -> Pomodoro Timer
 -> Spotify Music 
 -> Google Spreadsheet
 -> Google form
 -> Floating Emoji
--
+
 <img width="938" alt="image" src="https://github.com/rachana7701/chrome-extension/assets/172987608/c70a43c3-c05f-43f6-880f-8d0d59b8c048">
